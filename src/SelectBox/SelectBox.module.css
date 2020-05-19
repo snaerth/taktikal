@@ -1,0 +1,55 @@
+.inputContainer {
+  position: relative;
+}
+
+.input {
+  padding: 16px 16px 16px 48px;
+  width: 100%;
+  min-width: 314px;
+  min-height: 56px;
+  background-color: #d5e0ff;
+  color: #98a4c5;
+  border: 1px solid #98a4c5;
+  border-radius: 4px;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+input:focus {
+  border: 1px solid 4px;
+  color: #474747;
+}
+
+.searchIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 14px;
+}
+
+.dropdown {
+  margin-top: 11px;
+  padding: 8px;
+  box-shadow: 0px 8px 18px #e0e2ee;
+}
+
+.dropdownItem {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.dropdownItemActive {
+  background-color: #f3f7ff;
+  border-radius: #2823fb;
+}
+
+.emailTxt {
+  font-size: 14px;
+  color: #98a4c5;
+}
+
+.noResults {
+  padding: 8px 16px;
+  color: #98a4c5;
+}
